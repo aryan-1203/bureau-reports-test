@@ -4,7 +4,7 @@ import pandas as pd
 from io import BytesIO
 from processed import parse_json_file 
 
-st.image("logo.png", width=150)
+
 st.title("Prosparity Data Extractor")
 
 uploaded_files = st.file_uploader(
