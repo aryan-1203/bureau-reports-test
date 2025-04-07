@@ -4,7 +4,7 @@ import pandas as pd
 from io import BytesIO
 from processed import parse_json_file 
 
-st.title("📂 Multiple JSON to Combined Excel Report")
+st.title("Prosparity Data Extractor")
 
 uploaded_files = st.file_uploader(
     "Upload multiple JSON files", 
